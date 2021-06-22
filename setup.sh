@@ -11,7 +11,7 @@ echo 0x0100 > bcdDevice
 echo 0x0200 > bcdUSB
 
 mkdir -p strings/0x409
-#serial number can be fund in /proc/cpuinfo
+#serial number can be found in /proc/cpuinfo
 echo "00000000529335ad" > strings/0x409/serialnumber
 echo "Raspberry Pi" > strings/0x409/manufacturer
 echo "pi keyboard" > strings/0x409/product

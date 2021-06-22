@@ -17,7 +17,7 @@ echo "Raspberry Pi" > strings/0x409/manufacturer
 echo "pi keyboard" > strings/0x409/product
 
 mkdir -p configs/c.1/strings/0x409
-echo "Config 1: ECM network" > configs/c.1/strings/0x409/configuration
+echo "Config 1" > configs/c.1/strings/0x409/configuration
 echo 250 > configs/c.1/MaxPower
 
 mkdir -p functions/hid.usb0
